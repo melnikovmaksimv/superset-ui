@@ -1,7 +1,7 @@
 {
-  "name": "@superset-ui/plugin-chart-echarts",
-  "version": "0.17.65",
-  "description": "Superset Chart - Echarts",
+  "name": "@superset-ui/plugin-chart-ixora",
+  "version": "0.17.63",
+  "description": "Superset Chart - Ixora",
   "sideEffects": false,
   "main": "lib/index.js",
   "module": "esm/index.js",
@@ -16,7 +16,7 @@
   "keywords": [
     "superset"
   ],
-  "author": "Superset",
+  "author": "Maksim Melnikov (Ixora)",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/apache-superset/superset-ui/issues"
@@ -26,8 +26,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@superset-ui/chart-controls": "0.17.64",
-    "@superset-ui/core": "0.17.64",
+    "@superset-ui/chart-controls": "0.17.60",
+    "@superset-ui/core": "0.17.60",
     "@types/mathjs": "^6.0.7",
     "d3-array": "^1.2.0",
     "echarts": "^5.1.2",
@@ -37,3 +37,4 @@
   "peerDependencies": {
     "react": "^16.13.1"
   }
+}
