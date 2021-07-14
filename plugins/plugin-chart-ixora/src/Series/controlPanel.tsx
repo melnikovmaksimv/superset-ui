@@ -34,7 +34,7 @@ import { legendSection } from '../controls';
 const seriesByControl: SharedControlConfig<'SelectControl', ColumnMeta> = {
   type: 'SelectControl',
   label: t('Series by'),
-  multi: true,
+  multi: false,
   freeForm: true,
   clearable: true,
   default: [],

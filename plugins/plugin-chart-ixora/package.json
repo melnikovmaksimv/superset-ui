@@ -1,6 +1,6 @@
 {
-  "name": "@superset-ui/plugin-chart-ixora",
-  "version": "0.17.63",
+  "name": "@maksim_m/plugin-chart-ixora",
+  "version": "1.0.7",
   "description": "Superset Chart - Ixora",
   "sideEffects": false,
   "main": "lib/index.js",
