@@ -26,7 +26,7 @@ export default function buildQuery(formData: QueryFormData) {
       {
         ...baseQueryObject,
         groupby: formData.groupby ? [formData.series, ...formData.groupby] : [],
-        is_timeseries: true,
+        is_timeseries: false,
         orderby: orderby?.length
           ? orderby
           : timeseries_limit_metric
